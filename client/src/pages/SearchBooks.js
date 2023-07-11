@@ -81,6 +81,8 @@ const SearchBooks = () => {
       console.error(err);
     }
   };
+  console.log(savedBookIds);
+  console.log(searchedBooks);
 
   return (
     <>
