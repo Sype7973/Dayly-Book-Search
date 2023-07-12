@@ -48,6 +48,7 @@ const SearchBooks = () => {
         title: book.volumeInfo.title,
         description: book.volumeInfo.description,
         image: book.volumeInfo.imageLinks?.thumbnail || '',
+        link: book.volumeInfo.canonicalVolumeLink || '',
       }));
 
       setSearchedBooks(bookData);
@@ -128,6 +129,8 @@ const SearchBooks = () => {
                   <Card.Title>{book.title}</Card.Title>
                   <p className='small'>Authors: {book.authors}</p>
                   <Card.Text>{book.description}</Card.Text>
+                  <Card.Text>Link to Googlebooks site: <a href={book.link} rel="noopener noreferrer"
+                target="_blank" className="small"> @googlebooks</a></Card.Text>
                   {Auth.loggedIn() && (
                     <Button
                       disabled={savedBookIds?.some((savedBookId) => savedBookId === book.bookId)}
