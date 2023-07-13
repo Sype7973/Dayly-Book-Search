@@ -10,11 +10,11 @@
 
 ## Installation
 
-- To install this project you will need to clone the repository from GitHub and run npm install to install all the dependencies. You will also need to install MongoDB and run the server using npm start. You can then run npm run develop to start the application. You can also visit the deployed application on Heroku at https://dayly-book-search.herokuapp.com/.
+- To install this project you will need to clone the repository from GitHub and run npm install to install all the dependencies. You will also need to install MongoDB and run the server using npm start. You can then run npm run develop to start the application. You can also visit the deployed application on Heroku at https://dayly-book-search-5e22f5c457b7.herokuapp.com/
 
 ## Usage
 
-- To use this project you will need to create an account and login. You can then search for books and save them to your profile for later viewing. You can also delete books from your profile by clicking the delete button. You can also visit the deployed application on Heroku at https://dayly-book-search.herokuapp.com/.
+- To use this project you will need to create an account and login. You can then search for books and save them to your profile for later viewing. You can also delete books from your profile by clicking the delete button. You can also visit the deployed application on Heroku at https://dayly-book-search-5e22f5c457b7.herokuapp.com/
 
 
 ![saved profile books](./img/screencap.PNG)
